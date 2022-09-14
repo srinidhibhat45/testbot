@@ -1,0 +1,515 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "applyCertificate",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "showEvents",
+      "features": []
+    },
+    {
+      "name": "showHolidays",
+      "features": []
+    },
+    {
+      "name": "showLocations",
+      "features": []
+    },
+    {
+      "name": "showQuestionPapers",
+      "features": []
+    },
+    {
+      "name": "showResults",
+      "features": []
+    },
+    {
+      "name": "showSyllabus",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "answers",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "any festivals happening?",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "any good places near me/",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "anything to look at around here",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "beaches",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "bonafide",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "book a certificate",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "break",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "cafe",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "cert",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "certificate",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "character",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "churches",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "cinema",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "competitions",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "creations",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "cricket",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "cs go",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "dance",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "debate",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "eateries",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "events",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "exam",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "exam papers",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "exams",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "fashion show",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "fests",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "football",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "give certificate",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "give me marks certificate",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "give me question papers",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "good restaurants",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "gurudwara",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "happenings",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "help me learn",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "holidays",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "hotels",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "hotspots",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "inter-college",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "intra-college",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "leave",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "leaving certificate",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "locations",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "maps",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "marks",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "marks card",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "meet and greet",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "minecraft",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "mosques",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "off",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "online certificate",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "plexus",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "portion",
+      "intent": "showSyllabus",
+      "entities": []
+    },
+    {
+      "text": "provisional",
+      "intent": "applyCertificate",
+      "entities": []
+    },
+    {
+      "text": "pubg",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "quark",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "questions",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "recess",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "report card",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "result",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "results",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "score",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "semester",
+      "intent": "showResults",
+      "entities": []
+    },
+    {
+      "text": "show me holidays",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "show me my curriculum",
+      "intent": "showSyllabus",
+      "entities": []
+    },
+    {
+      "text": "show me sample papers",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "show we answer sheets",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "show we my courses this year",
+      "intent": "showSyllabus",
+      "entities": []
+    },
+    {
+      "text": "show we syllabus",
+      "intent": "showSyllabus",
+      "entities": []
+    },
+    {
+      "text": "singing",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "study resources",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "syllabus",
+      "intent": "showSyllabus",
+      "entities": []
+    },
+    {
+      "text": "syllabus of my department",
+      "intent": "showSyllabus",
+      "entities": []
+    },
+    {
+      "text": "take a test",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "tandav",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "tathastu",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "temples",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "time off",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "tourist",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "university tournament",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "vacation",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "valorant",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "what are some of the upcoming events?",
+      "intent": "showEvents",
+      "entities": []
+    },
+    {
+      "text": "what came for last year's exams",
+      "intent": "showQuestionPapers",
+      "entities": []
+    },
+    {
+      "text": "what can i do around me for holidays",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "what can i do near me?",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "what going on",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "what subjects do we have this sem",
+      "intent": "showSyllabus",
+      "entities": []
+    },
+    {
+      "text": "what's cooking near me?",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "what's hot near my colleg",
+      "intent": "showLocations",
+      "entities": []
+    },
+    {
+      "text": "when can we not come to college",
+      "intent": "showHolidays",
+      "entities": []
+    },
+    {
+      "text": "which fests will happen now",
+      "intent": "showEvents",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "gecbot",
+  "desc": "LUIS model for gecbot",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
